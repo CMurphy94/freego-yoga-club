@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink&family=Oswald&display=swap');
 
 * {
     margin: 0;
@@ -36,4 +36,46 @@
     text-decoration: none;
     color: inherit;
   
+}
+
+/* Hero image styling */
+
+#hero-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 10px;
+}
+
+#hero-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/yoga-hero.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#cover-text{
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+    text-align: justify;
+    
+    width: 235px;
+    padding: 2px 5px 2px 5px;
+    border-radius: 2%;
+
+    background-color: rgba(255, 255, 255, .5);
+
+    top: 200px;
+    left: 110px;
+
+    position: absolute;
+}
+
+.red-cover-text {
+    color: #ab2c2c;
+}
+
+.white-cover-text {
+    color: #000
 }
