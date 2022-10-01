@@ -12,7 +12,7 @@
     margin: 0 auto;
     text-align: center;
     font-family: 'Aref Ruqaa Ink', serif;
-    font-size: 250%;
+    font-size: 400%;
 }
 
 .logo_link {
@@ -20,22 +20,33 @@
     color: black;
 }
 
-.menu {
+nav {
     letter-spacing: 3px;
     text-align: center;
 }
 
-.menu li{
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li{
     list-style-type: none;
     display: inline-block;
     margin: 0 20px 0 20px;
-
+ 
 }
 
-.menu a {
+nav li a {
     text-decoration: none;
     color: inherit;
-  
+    padding-bottom: 2px;
+}
+
+nav li:hover {
+    border-bottom: 2px solid #cfb36b;
 }
 
 /* Hero image styling */
@@ -55,27 +66,22 @@
     background-size: cover;
 }
 
-#cover-text{
+/* Main text styling */
+
+#main-text-body {
     font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#discover-text {
+    display: inline-block;
+    text-align: left;
+    font-size: 250%;
     text-transform: capitalize;
-    text-align: justify;
-    
-    width: 235px;
-    padding: 2px 5px 2px 5px;
-    border-radius: 2%;
-
-    background-color: rgba(255, 255, 255, .5);
-
-    top: 200px;
-    left: 110px;
-
-    position: absolute;
+    max-width: 450px;
 }
 
-.red-cover-text {
-    color: #ab2c2c;
-}
-
-.white-cover-text {
-    color: #000
+.yellow-text {
+    color: #cfb36b;
 }
