@@ -25,13 +25,6 @@ nav {
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
 nav li{
     list-style-type: none;
     display: inline-block;
@@ -42,11 +35,16 @@ nav li{
 nav li a {
     text-decoration: none;
     color: inherit;
-    padding-bottom: 2px;
+}
+
+.active {
+    border-bottom: 2px solid #cfb36b;
 }
 
 nav li:hover {
-    border-bottom: 2px solid #cfb36b;
+    color: #faebd7;
+    background-color: rgba(207, 179, 107, .7);
+    border-radius: 5%;
 }
 
 /* Hero image styling */
