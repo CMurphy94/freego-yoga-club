@@ -90,6 +90,7 @@ nav li:hover {
     font-family: 'Oswald', sans serif;
     color: #faebd7;
     width: 100%;
+    height: 310px;
     background-color: #cfb36b;   
     margin-top: 20px;
     padding-top: 10px;
@@ -98,4 +99,19 @@ nav li:hover {
 
 .benefits-heading, .benefits-list {
     padding-left: 50px;
+}
+
+.benefits-heading {
+    text-decoration: underline;
+}
+
+.benefits-side-image {
+    background-image: url(/assets/images/yoga-side.jpg);
+    height: 300px;
+    width: 50%;
+    background-size: cover;
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #faebd7;
 }
