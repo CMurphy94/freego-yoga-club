@@ -111,7 +111,7 @@ nav li:hover {
 }
 
 .benefits-side-image {
-    background-image: url('/assets/images/yoga-side.jpg');
+    background-image: url('../images/yoga-side.jpg');
     height: 390px;
     width: 50%;
     background-size: cover;
