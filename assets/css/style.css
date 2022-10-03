@@ -83,3 +83,19 @@ nav li:hover {
 .yellow-text {
     color: #cfb36b;
 }
+
+/* benefits */
+
+.benefits {
+    font-family: 'Oswald', sans serif;
+    color: #faebd7;
+    width: 100%;
+    background-color: #cfb36b;   
+    margin-top: 20px;
+    padding-top: 10px;
+    font-size: 200%;
+}
+
+.benefits-heading, .benefits-list {
+    padding-left: 50px;
+}
