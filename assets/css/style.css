@@ -6,6 +6,10 @@
     border: 0;
 }
 
+body {
+    overflow-y: scroll;
+}
+
 .logo {
     padding-top: 5px;
     display: block;
@@ -97,6 +101,7 @@ nav li:hover {
     font-size: 200%;
     border-top: 1px solid #3a3a3a;
     border-bottom: 1px solid #3a3a3a;
+    contain: content;
 }
 
 .benefits-heading, .benefits-list {
@@ -135,4 +140,14 @@ nav li:hover {
 .socials {
     text-align: center;
     list-style-type: none;
+}
+
+.socials i {
+    color: #3a3a3a;
+}
+
+.socials > li {
+    display: inline;
+    font-size: 200%;
+    padding-top: 50px;
 }
