@@ -88,17 +88,20 @@ nav li:hover {
 
 .benefits {
     font-family: 'Oswald', sans serif;
-    color: #faebd7;
+    color: #fafafa;
     width: 100%;
     height: 400px;
     background-color: #cfb36b;   
     margin-top: 20px;
     padding-top: 10px;
     font-size: 200%;
+    border-top: 1px solid #3a3a3a;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 .benefits-heading, .benefits-list {
     padding-left: 50px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -119,4 +122,10 @@ nav li:hover {
     margin-right: 10px;
     margin-bottom: 10px;
     border: 2px solid #faebd7;
+}
+
+#footer-box {
+    width: 100%;
+    height: 200px;
+    background-color: #fafafa;
 }
