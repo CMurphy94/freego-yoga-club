@@ -252,3 +252,59 @@ textarea:focus {
     background-color: rgba(207, 179, 107, 0.5);
     color: #3a3a3a;
 }
+
+/* Screen sizes */
+
+@media screen and (max-width: 900px) {
+
+    /* Home screen */
+
+    .benefits-side-image {
+        height: 0%;
+        border: 0;
+    }
+
+    .benefits {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .benefits-heading, .benefits-list {
+        padding-left: 0;
+    }
+
+    /* About screen */
+
+    .about-text {
+        font-size: 150%;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    textarea {
+        width: 300px;
+    }
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+
+    /* About screen */
+
+    .about-text {
+        font-size: 125%;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+
+    nav {
+        align-content: center;
+    }
+}
