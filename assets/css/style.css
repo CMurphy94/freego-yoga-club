@@ -154,3 +154,38 @@ nav li:hover {
     display: inline;
     font-size: 200%;
 }
+
+.socials a {
+    max-width: 36px;
+}
+
+/* Timetable */
+
+table, th, td {
+    border: solid 1px #3a3a3a;
+    font-family: 'Oswald', sans-serif;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #cfb36b;
+}
+
+td {
+    text-align: center;
+}
+
+th, td {
+    padding: 5px;
+}
+
+#no-class {
+    background-color: #3a3a3a;
+}
+
+.timetable-box {
+    margin-top: 10px;
+}
