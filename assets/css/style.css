@@ -231,15 +231,18 @@ textarea:focus {
 .about-img {
     background-image: url('../images/about-image.jpg');
     height: 600px;
+    width: 100%;
     margin-top: 10px;
     background-size: cover;
-    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+    
 .about-text {
     font-family: 'Oswald', sans-serif;
-    position: absolute;
     font-size: 175%;
+    display: inline-block;
     margin-top: 10px;
     text-align: left;
     margin-left: 20%;
