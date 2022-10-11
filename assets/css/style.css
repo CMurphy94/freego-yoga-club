@@ -225,3 +225,27 @@ input:focus {
 textarea:focus {
     background-color: #eedbaf;
 }
+
+/* About Us */
+
+.about-img {
+    background-image: url('../images/about-image.jpg');
+    height: 600px;
+    margin-top: 10px;
+    background-size: cover;
+    align-content: center;
+}
+
+.about-text {
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+    font-size: 175%;
+    margin-top: 10px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: rgba(207, 179, 107, 0.5);
+    color: #3a3a3a;
+}
