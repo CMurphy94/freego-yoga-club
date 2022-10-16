@@ -74,6 +74,11 @@ A number of different tests were conducted to ensure the website and all pages r
  - Once each feature was created it was tested to ensure that it worked correctly before moving onto the next feature. This included testing the main logo header image correctly was clickable and would return to the landing page. That each button on the nav bar correctly brought the user to the correct page. Also ensuring that the correct page was displayed with a underline when active and that pages would show a different background and text colour when hovered.
  - The for was also tested by attempting to use the send message button while leaving different fields empty.
  - The flow and the layout of the website was tested once the responsiveness of the website had been worked on. This included testing how the website would be displayed on a large 25 inch monitor, down to a 13 inch laptop screen as well as different mobile screens. To ensure I could test this further I also sent my live link to a number of different friends and family members and asked them to attempt to open it on their computers and phones and send me screenshots of screenshare what they were seeing.
+ - The W3C Validator was then also used to detect any bugs or errors. Initially this returned 2 bugs with an alt attribute and one with the placement of a script tag within my html. These were resolved and then W3C Validator was ran again to ensure they were fixed correctly.
 
  ## Validator Testing
- 
+ - HTML
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcmurphy94.github.io%2Ffreego-yoga-club%2Findex.html)
+ - CSS
+    - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcmurphy94.github.io%2Ffreego-yoga-club%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
