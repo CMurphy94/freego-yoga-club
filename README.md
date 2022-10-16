@@ -82,3 +82,16 @@ A number of different tests were conducted to ensure the website and all pages r
  - CSS
     - No errors were returned when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcmurphy94.github.io%2Ffreego-yoga-club%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+# Credits
+
+## Code
+ - I used the website [w3schools](https://www.w3schools.com) to help resolve some things on my website. 
+    - A lot of my content including my header and nav bar is center aligned. When navigating onto a page which did not have enough content to need a scroll bar it would cause the header content to slightly move to compensate for no scroll bar appearing. To resolve this I used the overflow-y scroll to implement a scroll bar on all pages. This was obtained from this [w3schools article](https://www.w3schools.com/cssref/css3_pr_overflow-y.asp).
+    - To help align my about us page correctly I also learned about and used flex from this [w3schools article](https://www.w3schools.com/cssref/css3_pr_flex.asp).
+
+## Media
+ - There are three seperate images that are used through my website. I obtained all of these images from the free stock photo website known as [Pexels](https://www.pexels.com).
+
+## Miscellaneous
+ - There are two main fonts used in places through my websites that I obtained externally, These were Aref Ruqaa Ink and Oswald. These were both obtained through the [Google Fonts Website](https://fonts.google.com).
+ - On the footer aspect of my website I used three images to link to different social media websites. These images that were used and inputted were obtained from [Font Awesome](https://fontawesome.com/kits).
