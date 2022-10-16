@@ -1,108 +1,79 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Freego Yoga Club
 
-Welcome CMurphy94,
+ Welcome to Freego Yoga Club!
+ This is a club designed to encourage all age groups to give the wondeful discipline of yoga a go. The principle of making it free to all is so that budget or cost wont be a contribuing factor in trying something new or joining a new club.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+ The website is designed to be concise explain what Freego is, as well as give a way to view our class times and to also contact us so that you can find out more or ease any reservations you may have prior to joining a class.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+ ![responsivewebsite](./assets/images/websitesizes.PNG)
 
-## Gitpod Reminders
+ # Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+ I have a number of different features in my website that all coincede with the overarching goal of making the website easy to read, move through and find information.
 
-`python3 -m http.server`
+ ## Clickable logo and nav bar
 
-A blue button should appear to click: _Make Public_,
+ - Logo
+    - The logo displayed at the top of each page is clickable on all four pages. Allowing an easy way to navigate back to the home landing page
+ - Nav bar
+    - A responsive nav bar that is featured in the header of every page for easy navigation throughout the website.
+    - An underline is displayed to show the current webpage the user is on.
+    - When a nav item is hovered over the background and text change slightly to show the user that this web page can be clicked on.
 
-Another blue button should appear to click: _Open Browser_.
+![headernav](./assets/images/headerimage.PNG)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Home landing page image
 
-A blue button should appear to click: _Make Public_,
+ - Upong landing on the home page the user is greeted with a peaceful image of an individual practicing an inconic yoga pose infront of a beautiful sunset. This is to show the peace and beaty that comes with the practive of yoga so that the user imediately identifies what the website is about.
 
-Another blue button should appear to click: _Open Browser_.
+ ![heroimage](./assets/images/heroimage.PNG)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Main text
 
-To log into the Heroku toolbelt CLI:
+ - Below the hero image there is a piece of text that is displayed in two different colours. The reason for this is to emphasize the purpose of the website and also what it hopes to achieve.
+ - Using two different colours we are able to display not only the message "Discover a new you, with our free yoga classes" but also the message "Discover free yoga classes".
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+ ![maintext](./assets/images/maintext.PNG)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Benefits of Yoga
+ 
+ - Another image is placed the fits the theme of the website both in purpose and colours. This is an image which colours fit that of the website and depicts a woman peacefully practicining yoga beside a river.
+ - A list of benefits that can be gained through the practice of yoga is displayed. This is to provide some reasons why one may wish to take up the practive of yoga.
 
-------
+ ![benfits](./assets/images/benefits.PNG)
 
-## Release History
+## Footer
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+ - The footer of the website is designed to be minimalistic and include a number of links to the different social medias attached to Freego. These are displayed using icons obtained through "Font Awesome".
+ - These icons are clickable and will open up the respective social medias in a new page.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+ ![footer](./assets/images/footer.PNG)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+## About us
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+ - The about us page includes a beautiful image of stacked rocks. Overlaying this is text with a brief overview showing the history of the website along with what it is all about.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+ ![aboutus](./assets/images/aboutus.PNG)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Timetable
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+ - A page is dedicated to the class times which is displayed in a timetable due to the use of a table. This is help the user easily navigate and view what class times are available to them.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ ![timetable](./assets/images/timetable.PNG)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Contact us
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+ - A contact us page was designed as with starting a new hobby or activity their can be a lot of anxiety and reservations about showing up. This allows the user to reach out with a message through the use of a form. It is required for the user to input their name and email address before inputting their message and using the button below titled "Send Message!". This ensure we are able to receive an respond to the message the user has sent.
+ - Each box when clicked will also display a different background colour to help show the user exactly where their text will display
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+ ![contactus](./assets/images/contactus.PNG)
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+# Testing
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+A number of different tests were conducted to ensure the website and all pages ran smoothly and correctly for any user that may be attempting to access the website.
+ - Once each feature was created it was tested to ensure that it worked correctly before moving onto the next feature. This included testing the main logo header image correctly was clickable and would return to the landing page. That each button on the nav bar correctly brought the user to the correct page. Also ensuring that the correct page was displayed with a underline when active and that pages would show a different background and text colour when hovered.
+ - The for was also tested by attempting to use the send message button while leaving different fields empty.
+ - The flow and the layout of the website was tested once the responsiveness of the website had been worked on. This included testing how the website would be displayed on a large 25 inch monitor, down to a 13 inch laptop screen as well as different mobile screens. To ensure I could test this further I also sent my live link to a number of different friends and family members and asked them to attempt to open it on their computers and phones and send me screenshots of screenshare what they were seeing.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+ ## Validator Testing
+ 
